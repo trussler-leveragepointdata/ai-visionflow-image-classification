@@ -1,0 +1,3 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+POST,/model/predict,RemoteDisconnected('Remote end closed connection without response'),28,2026-11-21T18:12:38Z,2026-11-21T18:13:51Z
+GET,index,RemoteDisconnected('Remote end closed connection without response'),29,2026-11-21T18:12:21Z,2026-11-21T18:13:55Z
