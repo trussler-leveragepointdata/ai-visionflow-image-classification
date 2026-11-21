@@ -6,6 +6,12 @@ from fastapi import FastAPI
 
 app = FastAPI(title="Image Prediction API", version="0.0.1")
 
+
+@app.get("/")
+def index():
+    return {"message": "Image Prediction API"}
+
+
 app.include_router(auth_router.router)
 app.include_router(model_router.router)
 app.include_router(user_router.router)
